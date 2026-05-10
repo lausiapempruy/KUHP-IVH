@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1280">
+  <title>KUHP Instituut voor Huisdeken Anno 1924</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="https://cdn.discordapp.com/attachments/1383007483706212503/1502662220729942177/IVH-OFFICIAL-8K.png" alt="Logo IVH" class="logo">
+      <h1>KITAB UNDANG-UNDANG HUKUM PIDANA</h1>
+      <h2>INSTITUUT VOOR HUISDEKEN TE BATAVIA</h2>
+      <h3>Anno 1924 - Edisi Tuchtraad</h3>
+    </header>
+
+    <nav class="nav-pasal">
+      <button onclick="scrollToPasal(1)">Pasal 1-5</button>
+      <button onclick="scrollToPasal(6)">Pasal 6-10</button>
+      <button onclick="scrollToPasal(11)">Pasal 11-15</button>
+    </nav>
+
+    <main id="kuhp-content">
+      <section class="peringatan">
+        <h3>PERINGATAN TUCHTRAAD</h3>
+        <p>Barang siapa melanggar pasal-pasal di bawah ini akan dikenakan sanksi berupa: Denda Gulden, Penurunan IPK, Kerja Rodi, hingga <strong>DROP OUT PERMANEN</strong> dari asrama tanpa banding.</p>
+      </section>
+
+      <article class="pasal" id="pasal-1">
+        <h4>Pasal 1: Penghinaan terhadap Rector Magnificus</h4>
+        <p>Dilarang keras menghina, memaki, atau merendahkan Rector Magnificus IVH baik lisan maupun tulisan.</p>
+        <p class="sanksi">Sanksi: Denda 500 Gulden + IPK -1.0 + Sidang Tuchtraad</p>
+      </article>
+
+      <article class="pasal" id="pasal-2">
+        <h4>Pasal 2: Tidak Mengikuti UAS</h4>
+        <p>Setiap Bewoner wajib mengikuti UAS tiap periode. Mangkir tanpa izin Prefect = pelanggaran berat.</p>
+        <p class="sanksi">Sanksi: Drop Out Otomatis</p>
+      </article>
+
+      <article class="pasal" id="pasal-3">
+        <h4>Pasal 3: Pemalsuan Gulden</h4>
+        <p>Dilarang mencetak, mengedit, atau memalsukan mata uang Gulden IVH.</p>
+        <p class="sanksi">Sanksi: Denda 1000 Gulden + Blacklist Ekonomi</p>
+      </article>
+
+      <article class="pasal" id="pasal-4">
+        <h4>Pasal 4: Keributan di Asrama</h4>
+        <p>Dilarang membuat onar, spam, atau drama di channel asrama pada jam malam 22:00-06:00 WIB.</p>
+        <p class="sanksi">Sanksi: Denda 50 Gulden + Kerja Rodi 1 hari</p>
+      </article>
+
+      <article class="pasal" id="pasal-5">
+        <h4>Pasal 5: Pembangkangan terhadap Prefect</h4>
+        <p>Perintah Prefect yang sah wajib dilaksanakan. Membantah = melawan Tuchtraad.</p>
+        <p class="sanksi">Sanksi: IPK -0.5 + Teguran Keras</p>
+      </article>
+
+      <article class="pasal" id="pasal-6">
+        <h4>Pasal 6: Penyebaran Hoaks</h4>
+        <p>Dilarang menyebar berita bohong tentang IVH, UAS, atau Tuchtraad.</p>
+        <p class="sanksi">Sanksi: Denda 200 Gulden + Minta maaf publik</p>
+      </article>
+
+      <article class="pasal" id="pasal-7">
+        <h4>Pasal 7: Kolusi Nilai IPK</h4>
+        <p>Dilarang menyogok Prefect atau Rector untuk menaikkan IPK.</p>
+        <p class="sanksi">Sanksi: IPK direset ke 0.0 + DO</p>
+      </article>
+
+      <article class="pasal" id="pasal-8">
+        <h4>Pasal 8: Merusak Fasilitas Asrama</h4>
+        <p>Dilarang menghapus pesan, channel, atau role penting asrama.</p>
+        <p class="sanksi">Sanksi: Denda 300 Gulden + Perbaikan</p>
+      </article>
+
+      <article class="pasal" id="pasal-9">
+        <h4>Pasal 9: Multi-Akun</h4>
+        <p>1 orang = 1 akun Bewoner. Kloning akun = makar.</p>
+        <p class="sanksi">Sanksi: Semua akun DO Permanen</p>
+      </article>
+
+      <article class="pasal" id="pasal-10">
+        <h4>Pasal 10: Membocorkan Soal UAS</h4>
+        <p>Soal UAS rahasia negara IVH. Bocor = pengkhianatan.</p>
+        <p class="sanksi">Sanksi: DO + Denda 2000 Gulden</p>
+      </article>
+
+      <article class="pasal" id="pasal-11">
+        <h4>Pasal 11: Tidak Bayar Denda</h4>
+        <p>Denda Gulden wajib lunas 3x24 jam. Nunggak = bunga 10%/hari.</p>
+        <p class="sanksi">Sanksi: Penyitaan Aset + DO</p>
+      </article>
+
+      <article class="pasal" id="pasal-12">
+        <h4>Pasal 12: Menolak Kerja Rodi</h4>
+        <p>Hukuman Kerja Rodi dari Tuchtraad wajib dijalankan.</p>
+        <p class="sanksi">Sanksi: Hukuman dilipatgandakan</p>
+      </article>
+
+      <article class="pasal" id="pasal-13">
+        <h4>Pasal 13: Promosi Asrama Lain</h4>
+        <p>Dilarang promosi/spam asrama RP lain di lingkungan IVH.</p>
+        <p class="sanksi">Sanksi: Tendang + Blacklist</p>
+      </article>
+
+      <article class="pasal" id="pasal-14">
+        <h4>Pasal 14: Merendahkan Budaya 1924</h4>
+        <p>Dilarang meledek atau menolak roleplay era Hindia Belanda 1924.</p>
+        <p class="sanksi">Sanksi: Teguran + Edukasi Ulang</p>
+      </article>
+
+      <article class="pasal" id="pasal-15">
+        <h4>Pasal 15: Melawan Tuchtraad</h4>
+        <p>Keputusan Tuchtraad bersifat mutlak. Banding tidak diterima.</p>
+        <p class="sanksi">Sanksi: DO Permanen + Nama dipajang di Papan Hitam</p>
+      </article>
+
+    </main>
+
+    <footer>
+      <p>Ditetapkan di Batavia, 1 Januari 1924</p>
+      <p>Ttd. Rector Magnificus Prof. Dr. H. van der Decken</p>
+      <p>© Instituut voor Huisdeken. Het is allemaal voor de lol, maar de discipline is echt.</p>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
